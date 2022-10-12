@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ChoiceBox layoutX="83.0" layoutY="119.0" prefHeight="42.0" prefWidth="176.0">
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+      </ChoiceBox>
+      <TextField layoutX="323.0" layoutY="226.0" prefHeight="39.0" prefWidth="176.0">
+         <opaqueInsets>
+            <Insets top="25.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets left="25.0" right="25.0" top="25.0" />
+         </padding>
+      </TextField>
+      <TextField layoutX="323.0" layoutY="119.0" prefHeight="42.0" prefWidth="176.0" />
+      <TextField layoutX="83.0" layoutY="226.0" prefHeight="42.0" prefWidth="176.0" />
+      <Label layoutX="195.0" layoutY="33.0" text="ÁREA DO CURRÍCULO">
+         <font>
+            <Font name="Dubai Medium" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="194.0" layoutY="309.0" mnemonicParsing="false" text="CADASTRAR E CRIAR CURRÍCULO">
+         <font>
+            <Font name="Dubai Medium" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="323.0" layoutY="88.0" text="Cursos:">
+         <font>
+            <Font name="Dubai Medium" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="88.0" text="Grau de escolaridade:">
+         <font>
+            <Font name="Dubai Medium" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="195.0" text="Certificados:">
+         <font>
+            <Font name="Dubai Medium" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="323.0" layoutY="195.0" text="Experiências profissionais:">
+         <font>
+            <Font name="Dubai Medium" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
