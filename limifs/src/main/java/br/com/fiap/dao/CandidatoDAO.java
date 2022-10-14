@@ -1,10 +1,7 @@
 package br.com.fiap.dao;
 
 import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.text.ParseException;
-
 import br.com.fiap.model.Candidato;
 
 public class CandidatoDAO {
