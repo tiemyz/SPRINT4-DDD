@@ -4,7 +4,7 @@ public class Candidato {
 
     private String nomeCandidato;
     private String telCandidato;
-    private String dataCandidato;
+    private String dataCandidato;  /*LOCAL DATE*/
     private String cpfCandidato;
     private String generoCandidato;
     private String senhaCandidato;
