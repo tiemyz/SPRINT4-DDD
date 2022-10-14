@@ -12,7 +12,7 @@ public class CandidatoDAO {
 
         Connection con = ConnectionFactory.getConnection();
         var stm = con.prepareStatement(
-            "INSERT INTO T_LIMIFS_CANDIDATO (nom_candidato, tel_candidato, data_candidato, cpf_candidato, genero_candidato, senha_candidato, email_candidato) " +
+            "INSERT INTO T_LIM_CANDIDATO (nom_candidato, tel_candidato, data_candidato, cpf_candidato, genero_candidato, senha_candidato, email_candidato) " +
             "VALUES (?,?,?,?,?,?,?)"
             );
 

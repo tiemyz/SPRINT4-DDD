@@ -10,7 +10,7 @@ public class CurriculumDAO {
 
         Connection con = ConnectionFactory.getConnection();
         var stm = con.prepareStatement(
-            "INSERT INTO T_LIMIFS_CURRICULUM (grau_curriculo, cursos_curriculo, cert_curriculo, exp_curriculo) " +
+            "INSERT INTO T_LIM_CURRICULUM (grau_curriculo, cursos_curriculo, cert_curriculo, exp_curriculo) " +
             "VALUES (?,?,?,?)"
             );
 

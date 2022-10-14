@@ -10,8 +10,8 @@ public class EmpresasDAO {
 
         Connection con = ConnectionFactory.getConnection();
         var stm = con.prepareStatement(
-            "INSERT INTO T_LIMIFS_EMPRESAS (nom_empresas, loc_empresas, tipo_empresas, email_empresas, cnpj_empresas, senha_empresas) " +
-            "VALUES (?,?,?,?,?,?)"
+            "INSERT INTO T_LIM_EMPRESAS (nom_empresas, loc_empresas, tipo_empresas, email_empresas, cnpj_empresas, senha_empresas) " +
+            "VALUES (?,?,?,?,?,?)" /*LOCAL DATE */
             );
 
         stm.setString(1,empresas.getNomeEmpresas());
