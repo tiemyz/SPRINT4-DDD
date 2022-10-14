@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="237.0" layoutY="41.0" text="COMUNIDADE">
+      <Label layoutX="231.0" layoutY="37.0" text="COMUNIDADE">
          <font>
-            <Font name="Dubai Medium" size="20.0" />
+            <Font name="Dubai Medium" size="22.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9e4ee" height="84.0" layoutX="38.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="221.0" />
+      <Label layoutX="38.0" layoutY="155.0" text="POSTE UMA PUBLICAÇÃO! :">
+         <font>
+            <Font name="Dubai Medium" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="382.0" layoutY="172.0" text="VEJA PUBLICAÇÕES">
+         <font>
+            <Font name="Dubai Medium" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="214.0" text="RANKING">
+         <font>
+            <Font name="Dubai Medium" size="16.0" />
          </font>
       </Label>
    </children>
