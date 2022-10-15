@@ -5,7 +5,7 @@ import java.io.IOException;
 import br.com.fiap.App;
 import javafx.fxml.FXML;
 
-public class PrimaryController {
+public class HomeController {
 
     @FXML
     private void switchToCandidato() throws IOException {
