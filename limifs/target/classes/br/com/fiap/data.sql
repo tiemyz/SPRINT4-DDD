@@ -4,13 +4,14 @@ DROP TABLE T_LIM_CURRICULO;
 */
 
 CREATE TABLE T_LIM_CANDIDATO (
-    nom_candidato        VARCHAR2(50)      NOT NULL,
-    tel_candidato        VARCHAR2(50)   NOT NULL,
-    data_candidato       NUMBER(12)     NOT NULL,
-    cpf_candidato        VARCHAR(15)          NOT NULL,
-    genero_candidato     VARCHAR2(20)     NOT NULL,
-    senha_candidato      NUMBER(30)        NOT NULL,
-    email_candidato      VARCHAR2(50)   NOT NULL
+   
+   nom_candidato        VARCHAR2(50)   NOT NULL,
+   tel_candidato        VARCHAR2(50)   NOT NULL,
+   data_candidato       NUMBER(12)     NOT NULL,
+   cpf_candidato        VARCHAR(15)    NOT NULL,
+   genero_candidato     VARCHAR2(20)   NOT NULL,
+   senha_candidato      NUMBER(30)     NOT NULL,
+   email_candidato      VARCHAR2(50)   NOT NULL
 );
 
 ALTER TABLE T_LIM_CANDIDATO ADD CONSTRAINT PK_LIM_USUARIO PRIMARY KEY (NOM_CANDIDATO);
@@ -19,7 +20,7 @@ SELECT * FROM T_LIM_CANDIDATO;
 
 CREATE TABLE T_LIM_EMPRESA (
 
-   nom_empresas        VARCHAR2(50)      NOT NULL,
+   nom_empresas        VARCHAR2(50)   NOT NULL,
    loc_empresas        VARCHAR2(50)   NOT NULL,
    tipo_empresas       VARCHAR2(80)   NOT NULL,
    email_empresas      VARCHAR2(50)   NOT NULL,
@@ -44,9 +45,9 @@ ALTER TABLE T_LIM_CURRICULO ADD CONSTRAINT PK_LIM_CURRICULO PRIMARY KEY (GRAU_CU
 SELECT * FROM T_LIM_CURRICULO;
 
 CREATE TABLE T_LIM_LOGIN (
-   
-   user_login      VARCHAR2(20)  NOT NULL,
-   password_login  NUMBER (30) NOT NULL
+
+   user_login        VARCHAR2(20)   NOT NULL,
+   password_login    NUMBER (30)    NOT NULL
 );
 
 ALTER TABLE T_LIM_LOGIN ADD CONSTRAINT PK_LIM_LOGIN PRIMARY KEY (USER_LOGIN);
